@@ -39,7 +39,7 @@ cat_data <- select(data,where(is.factor))
 cat_summary <- summary(cat_data)
 print(cat_summary)
 
-#Σύνοψη Μεταβλητών σε πίνακα
+#Summarization of variables into a matrix format
 data |>
   select(PreLecture, PostLecture, StudyHours, Age, AttendanceRate, FinalScore, LearningStyle, Gender, DeviceUsed, Motivation_Cat) |>
   tbl_summary(statistic = list(PreLecture ~ "{mean} ({sd})",
@@ -151,7 +151,7 @@ data_4 <- read_excel("Data_4.xlsx")
 
 str(data_4)
 
-#Έλεγχος τυχαιότητας για τη μεταβλητη Var1
+#Randomness test for variable Var1
 runs_test <- runs.test(data_4$Var_1)
 print(runs_test)
 
