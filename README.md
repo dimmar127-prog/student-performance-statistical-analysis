@@ -6,7 +6,8 @@ This project applies rigorous statistical testing to educational data to underst
 ## 🛠️ Methods & Technologies Used
 * **Language:** R
 * **Libraries:** `tidyverse`, `ggpubr`, `rstatix`, `jtools`, `GGally`
-* **Statistical Methods:** * Data manipulation and factor conversion
+* **Statistical Methods:**
+  * Data manipulation and factor conversion
   * Shapiro-Wilk tests for normality
   * Spearman Rank Correlation (chosen due to non-normal distributions)
   * Paired t-tests (Pre- vs. Post-Lecture analysis)
