@@ -12,7 +12,7 @@ library(GGally)
 
 
 
-data <- read_excel("C:/Users/Dell Latitude/Desktop/R_Datasets/Students_Data.xlsx")
+data <- read_excel("Students_Data.xlsx")
 glimpse(data)
 
 #Μετατροπή σε factor των charackter μεταβλητών
@@ -147,7 +147,7 @@ plot(model)
 
 library(randtests)
 
-data_4 <- read_excel("C:/Users/Dell Latitude/Desktop/R_Datasets/Data_4.xlsx")
+data_4 <- read_excel("Data_4.xlsx")
 
 str(data_4)
 
